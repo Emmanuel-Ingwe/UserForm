@@ -9,4 +9,6 @@ const button = document.querySelector('#btn');
 button.addEventListener('click', (e) => {
     e.preventDefault();
     document.querySelector('.border').style.background = 'red';
+    document.querySelector('body').style.background = 'royalblue';
+    document.querySelector('body').classList.add('.border-gray-300');
 });
