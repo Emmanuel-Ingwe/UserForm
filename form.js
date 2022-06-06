@@ -4,8 +4,9 @@
 
 // console.log(addNum());
 
-const form = document.querySelectorAll('.border');
+const button = document.querySelector('#btn');
 
-addEventListener('click', (e)){
-    style.background = 'violet';
-}
+button.addEventListener('click', (e) => {
+    e.preventDefault();
+    document.querySelector('.border').style.background = 'red';
+});

@@ -5,3 +5,7 @@ body {
 .h2 {
   margin: 0px;
 }
+
+.border {
+  padding: 20px;
+}
